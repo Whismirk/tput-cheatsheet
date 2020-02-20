@@ -1,0 +1,12 @@
+echo "
+Colors			Style
+
+[30m setaf 0		$(tput sgr0)sgr0
+[31m setaf 1		$(tput sgr0; tput bold)bold$(tput sgr0)
+[32m setaf 2		$(tput sgr0; tput sitm)sitm$(tput sgr0)
+[33m setaf 3		$(tput sgr0; tput smul)smul$(tput sgr0)
+[34m setaf 4		$(tput sgr0; tput smso)smso$(tput sgr0)
+[35m setaf 5		$(tput sgr0; tput blink)blink$(tput sgr0)
+[36m setaf 6		$(tput sgr0; tput invis)invis$(tput sgr0)
+[37m setaf 7
+"
